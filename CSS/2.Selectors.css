@@ -22,7 +22,7 @@ div{
 }
 
 /* group selector */
-div,p{
+h1,p{
     text-decoration: underline;
 }
 
