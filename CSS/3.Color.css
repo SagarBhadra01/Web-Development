@@ -1,0 +1,34 @@
+/* color name */
+.class1{
+    color: red;
+}
+
+/* Hexadecimal Notation */
+.class2{
+    color: #2fad2b;
+}
+
+/* RGB- (Red,Green,Blue) */
+.class3{
+    color: rgb(30, 150, 220);
+}
+
+/* RGBA- (Red,Green,Blue,Opacity) */
+.class4{
+    color: rgba(128, 0, 255, 0.5);
+}
+
+/* HSL- (hue, saturation, lightness) */
+.class5{
+    color: hsl(117, 100%, 50%);
+}
+
+/* HSL- (hue, saturation, lightness, alpha) */
+.class6{
+    color: hsl(314, 100%, 50%, 0.5);
+}
+
+/* HWB- (Hue, whiteness, Blackness) */
+.class7{
+    color: hwb(251 17% 44%);
+}
