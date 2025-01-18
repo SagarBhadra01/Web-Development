@@ -1,0 +1,29 @@
+/* 1. background color */
+body{
+    background-color: #97f1d9;
+}
+
+
+/*2. background gradient */
+/* body{
+    background:linear-gradient(to right, #eda987, #d4181b);
+} */
+
+
+/* 3. background image */
+/* body{
+    background-image: url(/Media/Images/image1.jpg);
+} */
+
+
+/* 4. element background */
+span{
+    background-image: url(/Media/Images/image1.jpg);
+    background-size: cover;
+    /* background-size: contain; */
+}
+
+/*5. repeat background-
+background-repeat: repeat-x || repeat-y || repeat || no-repeat; */
+
+
