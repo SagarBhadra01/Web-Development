@@ -1,0 +1,74 @@
+/*1. text decoration using line  */
+.class1{
+    text-decoration-line: overline;
+}
+.class2{
+    text-decoration-line: underline ;
+}
+.class3{
+    text-decoration-line: line-through;
+}
+.class5{
+    text-decoration-line: underline overline line-through;
+}
+/* we can use-
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-decoration
+-all of this.... */
+
+
+/*2. text align */
+#id1{
+    text-align: center;
+}
+#id2{
+    text-align: end;
+}
+#id3{
+    text-align: justify;  
+    /* When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers): */
+}
+/* also- text-align:right or, left */
+
+
+/*3. text transform */
+.class1 {
+    text-transform: uppercase;
+}
+.class2 {
+    text-transform: lowercase;
+}
+.class3 {
+    text-transform: capitalize;
+}
+.class4 {
+    text-transform: none;
+}
+
+
+/* 4. text spacing  */
+#id1{
+    text-indent: 50px;
+}
+#id2 {
+    letter-spacing: 2px;
+  } 
+#id3 {
+    letter-spacing: -2px;
+  }
+#id1 {
+    line-height: 3;
+  }
+#id2 {
+    word-spacing: 10px;
+  } 
+
+
+/* 5. text shadow  */
+h1{
+    text-shadow: 2px 2px 5px red ;
+    /* horizontal-vertical-blur-color */
+}
