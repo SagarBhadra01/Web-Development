@@ -1,0 +1,31 @@
+/*1. font family */
+#id2 {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+/* The following list are the best web safe fonts for HTML and CSS:
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive) */
+    
+
+/* 2.font style  */
+.class{
+    font-style: italic;
+    font-weight: bold;
+}
+#id{
+    font-variant: small-caps; 
+}
+
+
+/* 3. font size  */
+.class{
+    font-size: 20px;
+}
+
