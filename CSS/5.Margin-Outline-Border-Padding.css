@@ -1,79 +1,90 @@
+div{
+    margin: 10px;
+}
 /* 1.1 border style */
-p{border-style: dotted;}
-/* p{border-style: dashed;} */
-/* p{border-style: solid;} */
-/* p{border-style: double;} */
-/* p{border-style: groove;} */
-/* p{border-style: ridge;} */
-/* p{border-style: inset;} */
-/* p{border-style: outset;} */
-/* p{border-style: none;} */
-/* p{border-style: hidden;} */
-/* p{border-style: dotted dashed solid double;}*/ /* -top right bottom left */
+.class5_1{border-style: dotted;}
+.class5_2{border-style: dashed;}
+.class5_3{border-style: solid;}
+.class5_4{border-style: double;}
+.class5_5{border-style: groove;}
+.class5_6{border-style: ridge;}
+.class5_7{border-style: inset;}
+.class5_8{border-style: outset;}
+.class5_9{border-style: none;}
+.class5_10{border-style: hidden;}
+.class5_11{border-style: dotted dashed solid double;}*/ /* -toclass5_ right bottom left
+
 
 /* 1.2 border color  */
-p{
-    border-color: black;
+.class5_3{
+    border-color: rgb(255, 0, 0);
 }
 
 /* 1.3 border width  */
-p{
-    border-width: thick;
-    /* border-width: medium; */
+.class5_2{
+    /* border-width: thick; */
+    border-width: medium;
     /* border-width: thin; */
 }
 
 /*1.4 we can use also- border-bottom,border-left,etc.... */
 
 /*1.5 border radius  */
-p{
+.class5_3{
     border-radius: 10px;
 }
 
 
 
 /*2.1 margin */
-.class1{
+.class5_12{
+    border-style: solid;
     margin: 20px;
 }
-.class2{
+.class5_13{
+    border-style: solid;
     margin-top: 20px;
 }
-.class3{
-    margin-left: 20px;
+.class5_14{
+    border-style: solid;
+    margin-left: 50px;
 }
-.class4{
+.class5_15{
+    border-style: solid;
     margin-bottom: 20px;
 }
-.class5{
-    margin-right: 20px;
+.class5_16{
+    border-style: solid;
+    margin-right: 50px;
 }
 
 /*2.2 top-right-bottom-left murgin combine */
-.class6{
+.class5_17{
+    border-style: solid;
     margin: 25px 30px 10px 40px;
 }
 
 
 
 /*3.1 padding- */
-p{
+.class5_18{
+    border-style: solid;
     padding: 20px;
 }
 
-/*3.2 we can use also top,bottom,right,left as margin */
+/*3.2 we can use also topbottom,right,left as margin */
 
 
 
 /* 4.outline */
-p{
+.class5_19{
+    border-style: dotted;
     outline-style: solid;
     outline-width: 3px;
     outline-color: rgb(208, 139, 36);
     outline-offset: 2px;
     /* offset refers distance between outline and border */
 }
-
 
 
 /* top layer- margin
