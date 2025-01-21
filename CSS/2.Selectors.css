@@ -12,26 +12,26 @@ div{
 }
 
 /* class selector */
-.class{
+.class2{
     text-align: center;
 }
 
 /* id selector */
-#id{
+#id2{
     text-align: center;
 }
 
 /* group selector */
-h1,p{
+.class2,#id2{
     text-decoration: underline;
 }
 
 /* Adjacent Sibling Selector (+): Styles an element immediately following another .For example, making the first h2 colored after an p */
-p+h2{
+p+h3{
     color: black;
 }
 
 /*General Sibling Selector (~): Styles all siblings that follow a specific element. For example, italicizing all h2 following an p. */
-p~h2{
+p~h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
