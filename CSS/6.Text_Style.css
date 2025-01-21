@@ -1,14 +1,14 @@
 /*1. text decoration using line  */
-.class1{
+.class6_1{
     text-decoration-line: overline;
 }
-.class2{
+.class6_2{
     text-decoration-line: underline ;
 }
-.class3{
+.class6_3{
     text-decoration-line: line-through;
 }
-.class5{
+.class6_4{
     text-decoration-line: underline overline line-through;
 }
 /* we can use-
@@ -20,55 +20,57 @@ text-decoration
 -all of this.... */
 
 
-/*2. text align */
-#id1{
+/*2. text transform */
+.class6_5 {
+    text-transform: uppercase;
+}
+.class6_6 {
+    text-transform: lowercase;
+}
+.class6_7 {
+    text-transform: capitalize;
+}
+.class6_8 {
+    text-transform: none;
+}
+
+
+/* 3. text shadow  */
+.class6_9{
+    text-shadow: 2px 2px 5px red ;
+    /* horizontal-vertical-blur-color */
+}
+
+
+
+/*4. text align */
+#id6_1{
     text-align: center;
 }
-#id2{
+#id6_2{
     text-align: end;
 }
-#id3{
+#id6_3{
     text-align: justify;  
     /* When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers): */
 }
 /* also- text-align:right or, left */
 
 
-/*3. text transform */
-.class1 {
-    text-transform: uppercase;
-}
-.class2 {
-    text-transform: lowercase;
-}
-.class3 {
-    text-transform: capitalize;
-}
-.class4 {
-    text-transform: none;
-}
-
-
-/* 4. text spacing  */
-#id1{
+/* 5. text spacing  */
+#id6_4{
     text-indent: 50px;
 }
-#id2 {
+#id6_5 {
     letter-spacing: 2px;
   } 
-#id3 {
+#id6_6 {
     letter-spacing: -2px;
   }
-#id1 {
+#id6_7 {
     line-height: 3;
   }
-#id2 {
+#id6_8 {
     word-spacing: 10px;
   } 
 
-
-/* 5. text shadow  */
-h1{
-    text-shadow: 2px 2px 5px red ;
-    /* horizontal-vertical-blur-color */
-}
