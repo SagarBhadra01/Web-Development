@@ -1,5 +1,5 @@
 /*1. font family */
-#id2 {
+.class7_1 {
     font-family: Tahoma, Verdana, sans-serif;
 }
 /* The following list are the best web safe fonts for HTML and CSS:
@@ -15,17 +15,17 @@ Brush Script MT (cursive) */
     
 
 /* 2.font style  */
-.class{
+.class7_2{
     font-style: italic;
     font-weight: bold;
 }
-#id{
+.class7_3{
     font-variant: small-caps; 
 }
 
 
 /* 3. font size  */
-.class{
+.class7_4{
     font-size: 20px;
 }
 
