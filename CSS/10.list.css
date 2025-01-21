@@ -1,0 +1,39 @@
+/* list style type */
+.class10_1 {
+    list-style-type: circle;
+  } 
+.class10_2 {
+    list-style-type: square;
+  }
+.class10_3 {
+    list-style-type: disc;
+  }
+.class10_4 {
+    list-style-type: "🙂";
+  }
+  /* use "" for custom style    */
+
+
+.class10_5 {
+    list-style-type: upper-roman;
+  } 
+.class10_6 {
+    list-style-type: lower-alpha;
+  }
+.class10_7{
+  list-style-type: decimal;
+}
+.class10_8{
+  list-style-type: decimal-leading-zero;
+}
+
+
+/* list style position */
+.class10_9 {
+    list-style-position: outside;
+  }
+.class10_10 {
+    list-style-position: inside;
+  }
+
+  /* we can add image also by - "list-style-image" */
