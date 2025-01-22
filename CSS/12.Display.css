@@ -1,0 +1,161 @@
+.class12{
+    margin: 30px;
+    outline: dotted black;
+}
+.class12_1{
+    border-style: solid;
+    display: inline;
+}
+.class12_2{
+    border-style: solid;
+    display: block;
+}
+.class12_3{
+    border-style: solid;
+    display: inline-block;
+}
+.class12_4{
+    border-style: solid;
+    display: none;
+}
+.class12_5{
+    border-style: solid;
+    display: flex;
+}
+.class12_6{
+    border-style: solid;
+    display: flexbox;
+
+}
+.class12_7{
+    border-style: solid;
+    display: contents;
+}
+.class12_8{
+    border-style: solid;
+    display: inline-flex;
+}
+
+
+/* flex properties */
+.class12_9{
+    outline: solid;
+    display: flex;
+    flex-direction:column;
+/*also-> column-reverse,row reverse */
+}
+.class12_10{
+    outline: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.class12_11{
+    outline: solid;
+    display: flex;
+    justify-content:center;
+}
+.class12_12{
+    outline: solid;
+    display: flex;
+    align-items: center;
+}
+.class12_13{
+    outline: solid;
+    display: flex;
+    align-content: center;
+}
+
+.class12_14{
+    border: solid;
+    display: flex;
+}
+.class12_14_2{
+    flex-grow: 2;
+}
+
+.class12_15{
+    border: solid;
+    display: flex;
+}
+.class12_15_1{
+    order: 3;
+}
+
+.class12_16{
+    border: solid;
+    display: flex;
+    flex-flow: wrap-reverse row-reverse;
+}
+
+
+/* grid display */
+.class12_17{
+    border: solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: 50px 50px auto; */
+}
+
+.class12_18{
+    border: solid;
+    display: grid;
+    grid-template-columns: auto auto auto;}
+.class12_18_1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column: 1/ 4; */
+}
+
+.class12_19{
+    border: solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.class12_20{
+    border: solid;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.class12_20_2{
+    grid-area: 1/2/3/4;
+    /* grid-row-start / grid-column-start / grid-row-end / grid-column-end. */
+}
+
+.item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+  }
+  .item3 {
+    grid-area: c;
+  }
+  .item4 {
+    grid-area: d;
+  }
+  .item5 {
+    grid-area: e;
+  }
+  .item6 {
+    grid-area: f;
+  }
+  .grid-container {
+    border: solid;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-areas: 
+    'a a a a b b'
+    'c c c c b b'
+    'e e e d d d'
+    'f f f f f f';
+    gap: 1px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    place-content: center;
+    padding: 20px;
+}
