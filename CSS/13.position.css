@@ -1,0 +1,33 @@
+  
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+
+  .class13{
+    outline: solid;
+  }
+  
+  #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }
+  #two2 {
+    position: absolute;
+    /* top: 7400px; */
+    left: 390px;
+    background: blue;
+  }
+
+  /* by default its static */
+
+  /* for fixing position- "fixed" */
+
+  /* special one is- "sticky" */
+
+  
