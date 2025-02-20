@@ -23,4 +23,4 @@ let obj = {
 console.log(obj);
 
 let arr = ["red", "green", "blue"];
-console.log(arr);
+console.log(arr); //array
